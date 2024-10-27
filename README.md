@@ -1,4 +1,5 @@
 🚗 Drift - Smart Used Car Price Prediction 💸
+
 Drift is a dynamic web application designed to accurately predict the selling price of used cars based on key specifications. Developed using the MERN stack (MongoDB, Express.js, React, Node.js) and machine learning, Drift leverages advanced algorithms to empower users with data-driven insights, making buying and selling decisions smarter and more efficient.
 
 📌 Features
@@ -8,6 +9,7 @@ User-Friendly Interface: Intuitive design for easy navigation and usage.
 Additional Pages: Informative pages guiding users through the app and explaining the prediction model.
 
 🔍 Machine Learning Methodology
+
 Drift’s backend is powered by a Stacking Methodology, which enhances accuracy by combining multiple algorithms:
 
 Base Models:
