@@ -1,0 +1,37 @@
+.market-header {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif; /* Cool font */
+    letter-spacing: 2px;
+    color: #8C0032; /* Matches navbar color */
+    text-transform: uppercase;
+  }
+  
+  .market-container {
+    margin-top: 40px; /* Adds space between navbar and Market Trends */
+  }
+  
+  .market-paper {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navbar-logo {
+    flex-grow: 1;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar-links {
+    margin-right: auto;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-user {
+    margin-left: auto;
+  }
+  
+  .navbar-menu {
+    margin-left: 10px;
+  }
+  

@@ -1,0 +1,61 @@
+/* Color theme similar to market-header */
+.reviews-container {
+    margin-top: 2rem;
+}
+
+.reviews-grid {
+    width: 100%;  /* Make sure it takes the full width */
+    margin: 0 auto;  /* Center it if needed */
+}
+
+.reviews-container {
+    background-color: white;  /* Apply background color to the entire container */
+    min-height: 100vh;        /* Ensure it covers the full viewport height */
+    padding: 2rem;            /* Adjust padding for spacing */
+}
+
+
+
+.market-header {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif; /* Cool font */
+    letter-spacing: 2px;
+    color: #8C0032; /* Matches navbar color */
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.reviews-grid {
+    margin-top: 2rem;
+}
+
+.feedback-card {
+    padding: 2rem;
+    background-color: #3e1c47; /* Dark purple card background */
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.feedback-user {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.feedback-text {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.feedback-reaction {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.no-feedback {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+}

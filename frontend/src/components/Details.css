@@ -1,0 +1,99 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #5a2b34; /* Match the color of your existing navbar */
+  }
+  
+  .navbar-logo {
+    flex-grow: 1;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-links button {
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navbar-user {
+    margin-right: 20px;
+  }
+  
+  .navbar-menu {
+    color: white;
+  }
+  
+  /* Details Page Styling */
+  .details-container {
+    padding: 20px;
+  }
+  
+  .details-category {
+    margin: 40px 0 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #5a2b34; /* Same as navbar for consistency */
+  }
+  
+  .details-paper {
+    padding: 15px;
+    text-align: center;
+    height: 320px; /* Slightly increased height for the cards */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s; /* Transition effect for hover */
+  }
+  
+  .details-paper:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
+  .car-image {
+    width: 100%;
+    height: 220px; /* Height for larger images */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    object-fit: cover; /* Ensures the image covers the area */
+  }
+  
+  .car-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .car-fact {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Space after each category */
+  .category-spacing {
+    margin: 40px 0; /* Add space below each category */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .navbar-links button {
+      margin-right: 5px;
+    }
+  
+    .details-category {
+      font-size: 24px;
+    }
+  
+    .car-name {
+      font-size: 18px;
+    }
+  
+    .car-fact {
+      font-size: 14px;
+    }
+  }
+  

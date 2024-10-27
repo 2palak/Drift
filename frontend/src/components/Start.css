@@ -1,0 +1,84 @@
+.start-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('https://i.pinimg.com/564x/66/44/5e/66445e1bcc7469cf7c2770f604b809e5.jpg') no-repeat center center fixed; 
+    /*background: url('https://i.pinimg.com/736x/85/11/48/851148a276ede2ab8927dab128d6e5e7.jpg') no-repeat center center fixed;*/
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar style with corrected background color */
+.navbar {
+    background-color: #5d2e3c !important; /* Set dark purple or desired color */
+    height: 70px; /* Height adjustment */
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #5d2e3c;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.tagline {
+    font-size: 3rem;
+    font-family: 'Lobster', cursive; /* Using Lobster font */
+    margin-bottom: 20px;
+    margin-top: 70px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    color: #5d2e3c;
+    text-align: left;
+}
+
+.get-started-button {
+    border-radius: 50px;
+    background-color: #5d2e3c;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-image {
+    width: 90%;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.centered-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    height: 100%; /* Align content vertically centered */
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.video-embed {
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Adjust to fit the container */
+    max-width: 750px; /* Set a maximum width if needed */
+    height: 500px; /* Set height */
+}

@@ -1,0 +1,6 @@
+Flask
+pandas
+pymongo
+flask-cors
+bcrypt
+PyJWT
